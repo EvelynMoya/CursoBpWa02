@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87336D35-24AE-4A22-A89E-216FB46A0AD3}|Bdb.Curso.HttpApi.Host\\Bdb.Curso.HttpApi.Host.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.httpapi.host\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87336D35-24AE-4A22-A89E-216FB46A0AD3}|Bdb.Curso.HttpApi.Host\\Bdb.Curso.HttpApi.Host.csproj|solutionrelative:bdb.curso.httpapi.host\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 178,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.HttpApi.Host\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Bdb.Curso.HttpApi.Host\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.HttpApi.Host\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Bdb.Curso.HttpApi.Host\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-14T14:44:08.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
