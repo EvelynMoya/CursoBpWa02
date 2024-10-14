@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bdb.Curso.Application.Shared.Dtos
 {
-    public class LinkResourceDTO
+    public class LinkResourceDto
     {
         public string? Href { get; set; }    // URL del enlace
         public string? Rel { get; set; }     // Relación (e.g., "self", "update")

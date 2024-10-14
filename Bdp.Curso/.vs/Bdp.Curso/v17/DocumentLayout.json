@@ -1,7 +1,56 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87336D35-24AE-4A22-A89E-216FB46A0AD3}|Bdb.Curso.HttpApi.Host\\Bdb.Curso.HttpApi.Host.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.httpapi.host\\controllers\\onlineordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87336D35-24AE-4A22-A89E-216FB46A0AD3}|Bdb.Curso.HttpApi.Host\\Bdb.Curso.HttpApi.Host.csproj|solutionrelative:bdb.curso.httpapi.host\\controllers\\onlineordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87336D35-24AE-4A22-A89E-216FB46A0AD3}|Bdb.Curso.HttpApi.Host\\Bdb.Curso.HttpApi.Host.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.httpapi.host\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87336D35-24AE-4A22-A89E-216FB46A0AD3}|Bdb.Curso.HttpApi.Host\\Bdb.Curso.HttpApi.Host.csproj|solutionrelative:bdb.curso.httpapi.host\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87336D35-24AE-4A22-A89E-216FB46A0AD3}|Bdb.Curso.HttpApi.Host\\Bdb.Curso.HttpApi.Host.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.httpapi.host\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87336D35-24AE-4A22-A89E-216FB46A0AD3}|Bdb.Curso.HttpApi.Host\\Bdb.Curso.HttpApi.Host.csproj|solutionrelative:bdb.curso.httpapi.host\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87336D35-24AE-4A22-A89E-216FB46A0AD3}|Bdb.Curso.HttpApi.Host\\Bdb.Curso.HttpApi.Host.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.httpapi.host\\controllers\\onlineorderhypercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87336D35-24AE-4A22-A89E-216FB46A0AD3}|Bdb.Curso.HttpApi.Host\\Bdb.Curso.HttpApi.Host.csproj|solutionrelative:bdb.curso.httpapi.host\\controllers\\onlineorderhypercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6061EC4-A7BE-4FA3-85BF-0DA0B706CBCA}|Bdb.Curso.Application\\Bdb.Curso.Application.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.application\\inv\\queries\\getproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6061EC4-A7BE-4FA3-85BF-0DA0B706CBCA}|Bdb.Curso.Application\\Bdb.Curso.Application.csproj|solutionrelative:bdb.curso.application\\inv\\queries\\getproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6061EC4-A7BE-4FA3-85BF-0DA0B706CBCA}|Bdb.Curso.Application\\Bdb.Curso.Application.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.application\\invappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6061EC4-A7BE-4FA3-85BF-0DA0B706CBCA}|Bdb.Curso.Application\\Bdb.Curso.Application.csproj|solutionrelative:bdb.curso.application\\invappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6061EC4-A7BE-4FA3-85BF-0DA0B706CBCA}|Bdb.Curso.Application\\Bdb.Curso.Application.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.application\\inv\\queries\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6061EC4-A7BE-4FA3-85BF-0DA0B706CBCA}|Bdb.Curso.Application\\Bdb.Curso.Application.csproj|solutionrelative:bdb.curso.application\\inv\\queries\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6061EC4-A7BE-4FA3-85BF-0DA0B706CBCA}|Bdb.Curso.Application\\Bdb.Curso.Application.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.application\\userappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6061EC4-A7BE-4FA3-85BF-0DA0B706CBCA}|Bdb.Curso.Application\\Bdb.Curso.Application.csproj|solutionrelative:bdb.curso.application\\userappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31A27E0-40B6-44F4-BA25-79614D66D893}|Bdb.Curso.EntityFrameworkCore\\Bdb.Curso.EntityFrameworkCore.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.entityframeworkcore\\entityframeworkcore\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31A27E0-40B6-44F4-BA25-79614D66D893}|Bdb.Curso.EntityFrameworkCore\\Bdb.Curso.EntityFrameworkCore.csproj|solutionrelative:bdb.curso.entityframeworkcore\\entityframeworkcore\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45BD302-3431-4AF1-9DE4-172380146795}|Bdb.Curso.Application.Shared\\Bdb.Curso.Application.Shared.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.application.shared\\iuserappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45BD302-3431-4AF1-9DE4-172380146795}|Bdb.Curso.Application.Shared\\Bdb.Curso.Application.Shared.csproj|solutionrelative:bdb.curso.application.shared\\iuserappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45BD302-3431-4AF1-9DE4-172380146795}|Bdb.Curso.Application.Shared\\Bdb.Curso.Application.Shared.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.application.shared\\iinvappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45BD302-3431-4AF1-9DE4-172380146795}|Bdb.Curso.Application.Shared\\Bdb.Curso.Application.Shared.csproj|solutionrelative:bdb.curso.application.shared\\iinvappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45BD302-3431-4AF1-9DE4-172380146795}|Bdb.Curso.Application.Shared\\Bdb.Curso.Application.Shared.csproj|d:\\cursoasp\\dia10\\github\\cursobpwa02\\bdp.curso\\bdb.curso.application.shared\\dtos\\producthresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45BD302-3431-4AF1-9DE4-172380146795}|Bdb.Curso.Application.Shared\\Bdb.Curso.Application.Shared.csproj|solutionrelative:bdb.curso.application.shared\\dtos\\producthresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,8 +58,164 @@
       "DocumentGroups": [
         {
           "DockedHeight": 178,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.HttpApi.Host\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.HttpApi.Host\\Services\\JwtTokenService.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.HttpApi.Host\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "Bdb.Curso.HttpApi.Host\\Services\\JwtTokenService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:53:39.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OnlineOrderHyperController.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.HttpApi.Host\\Controllers\\OnlineOrderHyperController.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.HttpApi.Host\\Controllers\\OnlineOrderHyperController.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.HttpApi.Host\\Controllers\\OnlineOrderHyperController.cs",
+              "RelativeToolTip": "Bdb.Curso.HttpApi.Host\\Controllers\\OnlineOrderHyperController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAASwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:53:25.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OnlineOrderController.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.HttpApi.Host\\Controllers\\OnlineOrderController.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.HttpApi.Host\\Controllers\\OnlineOrderController.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.HttpApi.Host\\Controllers\\OnlineOrderController.cs",
+              "RelativeToolTip": "Bdb.Curso.HttpApi.Host\\Controllers\\OnlineOrderController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAmwCQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:53:10.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.HttpApi.Host\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.HttpApi.Host\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.HttpApi.Host\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Bdb.Curso.HttpApi.Host\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAASwCsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:53:00.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetProductsQueryHandler.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application\\Inv\\Queries\\GetProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.Application\\Inv\\Queries\\GetProductsQueryHandler.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application\\Inv\\Queries\\GetProductsQueryHandler.cs",
+              "RelativeToolTip": "Bdb.Curso.Application\\Inv\\Queries\\GetProductsQueryHandler.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAqwCoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:52:42.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetProductsQuery.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application\\Inv\\Queries\\GetProductsQuery.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.Application\\Inv\\Queries\\GetProductsQuery.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application\\Inv\\Queries\\GetProductsQuery.cs",
+              "RelativeToolTip": "Bdb.Curso.Application\\Inv\\Queries\\GetProductsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:50:40.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserAppServices.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application\\UserAppServices.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.Application\\UserAppServices.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application\\UserAppServices.cs",
+              "RelativeToolTip": "Bdb.Curso.Application\\UserAppServices.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:49:52.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvAppServices.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application\\InvAppServices.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.Application\\InvAppServices.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application\\InvAppServices.cs",
+              "RelativeToolTip": "Bdb.Curso.Application\\InvAppServices.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAmwDwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:49:42.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.EntityFrameworkCore\\EntityFrameworkCore\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.EntityFrameworkCore\\EntityFrameworkCore\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.EntityFrameworkCore\\EntityFrameworkCore\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Bdb.Curso.EntityFrameworkCore\\EntityFrameworkCore\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:49:10.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserAppServices.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application.Shared\\IUserAppServices.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.Application.Shared\\IUserAppServices.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application.Shared\\IUserAppServices.cs",
+              "RelativeToolTip": "Bdb.Curso.Application.Shared\\IUserAppServices.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAUwBkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:47:20.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IInvAppServices.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application.Shared\\IInvAppServices.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.Application.Shared\\IInvAppServices.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application.Shared\\IInvAppServices.cs",
+              "RelativeToolTip": "Bdb.Curso.Application.Shared\\IInvAppServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:47:04.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductHResourceDto.cs",
+              "DocumentMoniker": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application.Shared\\Dtos\\ProductHResourceDto.cs",
+              "RelativeDocumentMoniker": "Bdb.Curso.Application.Shared\\Dtos\\ProductHResourceDto.cs",
+              "ToolTip": "D:\\CursoASP\\Dia10\\Github\\CursoBpWa02\\Bdp.Curso\\Bdb.Curso.Application.Shared\\Dtos\\ProductHResourceDto.cs",
+              "RelativeToolTip": "Bdb.Curso.Application.Shared\\Dtos\\ProductHResourceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:45:16.183Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"

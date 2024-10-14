@@ -9,11 +9,11 @@ namespace Bdb.Curso.Application.Shared
     {
 
 
-        Task<List<ProductDTO>> GetProducts(string searchTerm, int pageNumber = 1);
+        Task<List<ProductDto>> GetProducts(string searchTerm, int pageNumber = 1);
 
         Task<bool> InventMov(ProductMovRequest request);
 
-        Task<ProductDTO> GetProductDetailsByIdAsync(int id);
+        Task<ProductDto> GetProductDetailsByIdAsync(int id);
 
         //  Task<bool> InventMovSp(ProductMovRequest request);
 

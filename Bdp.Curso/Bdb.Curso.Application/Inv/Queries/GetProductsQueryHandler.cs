@@ -13,27 +13,24 @@ using System.Threading.Tasks;
 
 namespace Bdb.Curso.Application.Inv.Queries
 {
-    public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, List<ProductDTO>>
+    public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, List<ProductDto>>
     {
         private readonly IGenericRepository<Product> _productsRepository;
-        private readonly IMapper _mapper;
 
         public GetProductsQueryHandler(
-            IGenericRepository<Product> productsRepository, 
-            IMapper mapper)
+            IGenericRepository<Product> productsRepository)
         {
             _productsRepository = productsRepository;
-            _mapper = mapper;
 
         }
 
-        public async Task<List<ProductDTO>> Handle(GetProductsQuery request, CancellationToken cancellationToken)
+        public async Task<List<ProductDto>> Handle(GetProductsQuery request, CancellationToken cancellationToken)
         {
 
             int pageSize = 10; // definir como politica
 
-            IQueryable<ProductDTO> query;
-            List<ProductDTO> paginatedProducts = new();
+            IQueryable<ProductDto> query;
+            List<ProductDto> paginatedProducts = new();
 
                                    
             try
@@ -43,7 +40,7 @@ namespace Bdb.Curso.Application.Inv.Queries
                        .Include(p => p.Supplier)
                        .Where(p => p.Name.Contains(request.SearchTerm ?? string.Empty))
                        .OrderBy(p => p.Name)
-                       .Select(p => new ProductDTO
+                       .Select(p => new ProductDto
                        {
                            Id = p.Id,
                            Name = p.Name,

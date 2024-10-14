@@ -60,7 +60,7 @@ namespace Bdb.Curso.HttpApi.Host.Services
 
                             
 
-        public async Task<TokenResponseDTO> GenerateToken(UserDTO user, string clientType)
+        public async Task<TokenResponseDto> GenerateToken(UserDto user, string clientType)
         {
             if (_twoFactorSettings.Enabled)
             {
@@ -115,10 +115,10 @@ namespace Bdb.Curso.HttpApi.Host.Services
                 // Retornar un token temporal hasta que el usuario valide el código de 2FA
                 var tokenString = GeneratePending2FAToken(user);
 
-                return new TokenResponseDTO
+                return new TokenResponseDto
                 {
                     AccessToken = tokenString,
-                    RefreshToken = new RefreshTokenDTO() {Token=string.Empty,Expires=DateTime.Now } // No se genera RefreshToken hasta que se valide 2FA
+                    RefreshToken = new RefreshTokenDto() {Token=string.Empty,Expires=DateTime.Now } // No se genera RefreshToken hasta que se valide 2FA
 
                 };
             }
@@ -131,7 +131,7 @@ namespace Bdb.Curso.HttpApi.Host.Services
             }
         }
 
-        private string GeneratePending2FAToken(UserDTO user)
+        private string GeneratePending2FAToken(UserDto user)
         {
             var claims = new List<Claim>
         {
@@ -182,16 +182,16 @@ namespace Bdb.Curso.HttpApi.Host.Services
             var accessTokenString = tokenHandler.WriteToken(accessToken);
 
             // Codificar el token usando JWE
-            var encryptedToken = JWT.Encode(
+            var encrypteDtoken = JWT.Encode(
                 accessTokenString,
                 _publicKey,
                 JweAlgorithm.RSA_OAEP,
                 JweEncryption.A256GCM);
 
-            return encryptedToken;
+            return encrypteDtoken;
         }
 
-        public async Task<TokenResponseDTO> ValidateTwoFactorAndGenerateToken(UserDTO user, string code)
+        public async Task<TokenResponseDto> ValidateTwoFactorAndGenerateToken(UserDto user, string code)
         {
             // Verifica si el código es correcto y no ha expirado
             if (user.TwoFactorCode != code || user.TwoFactorExpiry < DateTime.UtcNow)
@@ -215,7 +215,7 @@ namespace Bdb.Curso.HttpApi.Host.Services
             return await GenerateFullToken(user, "user");
         }
 
-        private async Task<TokenResponseDTO> GenerateFullToken(UserDTO user, string clientType)
+        private async Task<TokenResponseDto> GenerateFullToken(UserDto user, string clientType)
         {
             var claims = new List<Claim>
         {
@@ -253,7 +253,7 @@ namespace Bdb.Curso.HttpApi.Host.Services
             var accessToken = tokenHandler.CreateToken(tokenDescriptor);
             var accessTokenString = tokenHandler.WriteToken(accessToken);
 
-            var encryptedToken = JWT.Encode(
+            var encrypteDtoken = JWT.Encode(
                 accessTokenString,
                 _publicKey,
                 JweAlgorithm.RSA_OAEP,
@@ -262,19 +262,19 @@ namespace Bdb.Curso.HttpApi.Host.Services
             // Generar Refresh Token
             var refreshToken = await GenerateRefreshToken(user.Id);
 
-            return new TokenResponseDTO
+            return new TokenResponseDto
             {
-                AccessToken = encryptedToken,
+                AccessToken = encrypteDtoken,
                 RefreshToken = refreshToken
             };
         }
 
-        public string? DecryptToken(string encryptedToken)
+        public string? DecryptToken(string encrypteDtoken)
         {
             try
             {
-                var decryptedToken = JWT.Decode(encryptedToken, _privateKey);
-                return decryptedToken;
+                var decrypteDtoken = JWT.Decode(encrypteDtoken, _privateKey);
+                return decrypteDtoken;
             }
             catch (Exception ex)
             {
@@ -298,10 +298,10 @@ namespace Bdb.Curso.HttpApi.Host.Services
             return new RsaSecurityKey(_publicKey); // Convertir la clave pública a RsaSecurityKey
         }
 
-        public ClaimsPrincipal ValidateToken(string encryptedToken)
+        public ClaimsPrincipal ValidateToken(string encrypteDtoken)
         {
             // Desencriptar el token
-            var jwt = DecryptToken(encryptedToken);
+            var jwt = DecryptToken(encrypteDtoken);
 
             // Validar el token desencriptado
             var tokenHandler = new JwtSecurityTokenHandler();
@@ -312,8 +312,8 @@ namespace Bdb.Curso.HttpApi.Host.Services
                 IssuerSigningKey = new RsaSecurityKey(_privateKey) // Clave privada para verificar la firma
             };
 
-            SecurityToken validatedToken;
-            var principal = tokenHandler.ValidateToken(jwt, validationParameters, out validatedToken);
+            SecurityToken validateDtoken;
+            var principal = tokenHandler.ValidateToken(jwt, validationParameters, out validateDtoken);
 
             // Verifica si 2FA está habilitado
             if (_twoFactorSettings.Enabled)
@@ -331,7 +331,7 @@ namespace Bdb.Curso.HttpApi.Host.Services
             return principal;
         }
 
-        private async Task<RefreshTokenDTO> GenerateRefreshToken(int userId)
+        private async Task<RefreshTokenDto> GenerateRefreshToken(int userId)
         {
             var randomBytes = new byte[32];
             using (var rng = RandomNumberGenerator.Create())
@@ -341,7 +341,7 @@ namespace Bdb.Curso.HttpApi.Host.Services
 
             var refreshToken = Convert.ToBase64String(randomBytes);
 
-            var rt = new RefreshTokenDTO
+            var rt = new RefreshTokenDto
             {
                 Token = refreshToken,
                 Expires = DateTime.UtcNow.AddDays(_jwtSettings.RefreshTokenExpiresInDays)

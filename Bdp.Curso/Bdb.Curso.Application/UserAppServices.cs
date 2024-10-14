@@ -30,7 +30,7 @@ namespace Bdb.Curso.Application
 
         }               
 
-        public async Task<UserDTO> Login(LoginModel login)
+        public async Task<UserDto> Login(LoginModel login)
         {                  
              //var passHass =string.Empty;
 
@@ -46,13 +46,13 @@ namespace Bdb.Curso.Application
             if (!validarPass)
                 return null;
                                          
-            return _mapper.Map<UserDTO>(userDb);  
+            return _mapper.Map<UserDto>(userDb);  
 
         }
 
  
 
-        public async Task<UserDTO> CreateUser(CreateUserInput input)
+        public async Task<UserDto> CreateUser(CreateUserInput input)
         {
             var userDb = _mapper.Map<User>(input);
 
@@ -63,7 +63,7 @@ namespace Bdb.Curso.Application
 
             await _usersRepository.AddAsync(userDb);
 
-            return _mapper.Map<UserDTO>(userDb);
+            return _mapper.Map<UserDto>(userDb);
 
         }
 
@@ -94,15 +94,15 @@ namespace Bdb.Curso.Application
 
 
 
-        public async Task<UserDTO> GetUserByUsername(string username)
+        public async Task<UserDto> GetUserByUsername(string username)
         {
-            var ret = new UserDTO();
+            var ret = new UserDto();
 
             var userByUserName = await _usersRepository.Where(u => u.UserName == username).FirstOrDefaultAsync();
 
             if (userByUserName != null)
             {
-                ret = new UserDTO
+                ret = new UserDto
                 {
                     Id = userByUserName.Id,
                     UserName = userByUserName.UserName,

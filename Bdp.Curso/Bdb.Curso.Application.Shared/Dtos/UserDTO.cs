@@ -1,6 +1,6 @@
 ﻿namespace Bdb.Curso.Application.Shared.Dtos
 {
-    public class UserDTO
+    public class UserDto
     {
         public int Id { get; set; }
         public string? UserName { get; set; }

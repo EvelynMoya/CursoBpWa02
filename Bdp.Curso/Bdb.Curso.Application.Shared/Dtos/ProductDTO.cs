@@ -1,6 +1,6 @@
 ﻿namespace Bdb.Curso.Application.Shared.Dtos
 {
-    public class ProductDTO
+    public class ProductDto
     {
         public int Id { get; set; }
 

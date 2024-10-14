@@ -29,7 +29,7 @@ namespace Bdb.Curso.Application
             _productsRepository = productsRepository;
         }
                                         
-        public async Task<List<ProductDTO>> GetProducts(string searchTerm, int pageNumber = 1)
+        public async Task<List<ProductDto>> GetProducts(string searchTerm, int pageNumber = 1)
         {    
             var query = new GetProductsQuery { SearchTerm = searchTerm, PageNumber = pageNumber };
             return await _mediator.Send(query);
@@ -51,14 +51,14 @@ namespace Bdb.Curso.Application
         }
 
 
-        public async Task<ProductDTO> GetProductDetailsByIdAsync(int id)
+        public async Task<ProductDto> GetProductDetailsByIdAsync(int id)
         {
             // Obtener el producto y los datos relacionados en una sola consulta
             var productDto = await _productsRepository 
                 .Where(p => p.Id == id)
                 .Include(p => p.Category)   // Cargar la categoría relacionada
                 .Include(p => p.Supplier)   // Cargar el proveedor relacionado
-                .Select(p => new ProductDTO
+                .Select(p => new ProductDto
                 {
                     Id = p.Id,
                     Name = p.Name,
@@ -71,7 +71,7 @@ namespace Bdb.Curso.Application
 
             if (productDto == null)
             {
-                return new ProductDTO();
+                return new ProductDto();
             }
 
 

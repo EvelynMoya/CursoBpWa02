@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bdb.Curso.Application.Shared.Dtos
 {
-    public class ProductHResourceDTO
+    public class ProductHResourceDto
     {
         public int Id { get; set; }
 
@@ -17,7 +17,7 @@ namespace Bdb.Curso.Application.Shared.Dtos
         public string? SupplierName { get; set; }
 
 
-        public List<LinkResourceDTO> Links { get; set; } = new();
+        public List<LinkResourceDto> Links { get; set; } = new();
 
     }
 }

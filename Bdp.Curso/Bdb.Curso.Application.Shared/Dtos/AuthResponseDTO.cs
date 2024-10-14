@@ -1,6 +1,6 @@
 ﻿namespace Bdb.Curso.Application.Shared.Dtos
 {
-    public class AuthResponseDTO
+    public class AuthResponseDto
     {
         public bool IsSuccess { get; set; }
         public string? AccessToken { get; set; }
