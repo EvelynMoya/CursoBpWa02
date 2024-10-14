@@ -10,22 +10,21 @@ using Bdb.Curso.Core.Entities;
 using Bdb.Curso.EntityFrameworkCore;
 using MediatR;
 using Bdb.Curso.Application.Inv.Queries;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using Bdb.Curso.Application.Inv.Commands;
 
 namespace Bdb.Curso.Application
 {
     public class InvAppServices : IInvAppServices
     {                     
-        private readonly IMapper _mapper;        
+    
         private readonly IMediator _mediator; // Usaremos MediatR para orquestar los commands y queries
         private readonly IGenericRepository<Product> _productsRepository;
 
 
-        public InvAppServices( IMapper mapper,  IMediator mediator , IGenericRepository<Product>  productsRepository
+        public InvAppServices(   IMediator mediator , IGenericRepository<Product>  productsRepository
             )
         {                                 
-            _mapper = mapper;           
+      
             _mediator = mediator;          
             _productsRepository = productsRepository;
         }
@@ -39,8 +38,6 @@ namespace Bdb.Curso.Application
 
         public async Task<bool> InventMov(ProductMovRequest request)
         {
-            // var command = _mapper.Map<ProductMovRequestCommand>(request);
-
             var command = new ProductMovRequestCommand
             {
                 ProductId = request.ProductId,
