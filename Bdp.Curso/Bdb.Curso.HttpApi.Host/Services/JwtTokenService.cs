@@ -142,7 +142,8 @@ namespace Bdb.Curso.HttpApi.Host.Services
                                           
        
             // Agregar los roles como claims y autorizaciones personalizadas
-            var rolesList = user.Roles.Split(',').Select(r => r.Trim()).ToList();
+            var rolesList = (user.Roles ?? string.Empty)
+                .Split(',').Select(r => r.Trim()).ToList();
             foreach (var role in rolesList)
             {
                 claims.Add(new Claim(ClaimTypes.Role, role));
@@ -160,15 +161,7 @@ namespace Bdb.Curso.HttpApi.Host.Services
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = new RsaSecurityKey(_privateKey);
 
-            //var tokenDescriptor = new SecurityTokenDescriptor
-            //{
-            //    Subject = new ClaimsIdentity(claims),
-            //    Expires = DateTime.UtcNow.AddMinutes(10), // Token temporal
-            //    SigningCredentials = new SigningCredentials(key, SecurityAlgorithms.RsaSha256)
-            //};
-
-
-            var tokenDescriptor = new SecurityTokenDescriptor
+           var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.UtcNow.AddMinutes(_jwtSettings.ExpiresInMinutes),
