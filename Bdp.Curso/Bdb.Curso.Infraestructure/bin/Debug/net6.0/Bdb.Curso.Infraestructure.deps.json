@@ -265,10 +265,7 @@
       "System.Text.Json/4.6.0": {},
       "Bdb.Curso.Application.Shared/1.0.0": {
         "runtime": {
-          "Bdb.Curso.Application.Shared.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Bdb.Curso.Application.Shared.dll": {}
         }
       }
     }

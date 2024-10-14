@@ -5,7 +5,7 @@ namespace Bdb.Curso.Infraestructure
 {
     public class PasswordHasherService : IPasswordHasherService
     {
-        public string HashPassword(string password)
+        public string? HashPassword(string password)
         {
             //agregar pesonalizacion     --- Pepper
 

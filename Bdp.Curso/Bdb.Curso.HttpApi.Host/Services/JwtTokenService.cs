@@ -269,7 +269,7 @@ namespace Bdb.Curso.HttpApi.Host.Services
             };
         }
 
-        public string DecryptToken(string encryptedToken)
+        public string? DecryptToken(string encryptedToken)
         {
             try
             {
@@ -283,12 +283,12 @@ namespace Bdb.Curso.HttpApi.Host.Services
         }
 
         // Métodos para obtener el emisor, audiencia y clave pública
-        public string GetIssuer()
+        public string? GetIssuer()
         {
             return _jwtSettings.Issuer; // Obtener del archivo de configuración
         }
 
-        public string GetAudience()
+        public string? GetAudience()
         {
             return _jwtSettings.Audience; // Obtener del archivo de configuración
         }

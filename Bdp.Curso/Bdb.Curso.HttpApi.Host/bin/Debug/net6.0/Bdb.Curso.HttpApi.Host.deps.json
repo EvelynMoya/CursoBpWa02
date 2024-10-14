@@ -1505,34 +1505,22 @@
           "MediatR": "12.4.1"
         },
         "runtime": {
-          "Bdb.Curso.Application.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Bdb.Curso.Application.dll": {}
         }
       },
       "Bdb.Curso.Application.Shared/1.0.0": {
         "runtime": {
-          "Bdb.Curso.Application.Shared.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Bdb.Curso.Application.Shared.dll": {}
         }
       },
       "Bdb.Curso.Core/1.0.0": {
         "runtime": {
-          "Bdb.Curso.Core.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Bdb.Curso.Core.dll": {}
         }
       },
       "Bdb.Curso.Core.Shared/1.0.0": {
         "runtime": {
-          "Bdb.Curso.Core.Shared.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Bdb.Curso.Core.Shared.dll": {}
         }
       },
       "Bdb.Curso.EntityFrameworkCore/1.0.0": {
@@ -1551,10 +1539,7 @@
           "System.IdentityModel.Tokens.Jwt": "6.36.0"
         },
         "runtime": {
-          "Bdb.Curso.EntityFrameworkCore.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Bdb.Curso.EntityFrameworkCore.dll": {}
         }
       },
       "Bdb.Curso.Infraestructure/1.0.0": {
@@ -1566,10 +1551,7 @@
           "Serilog.AspNetCore": "6.1.0"
         },
         "runtime": {
-          "Bdb.Curso.Infraestructure.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Bdb.Curso.Infraestructure.dll": {}
         }
       }
     }

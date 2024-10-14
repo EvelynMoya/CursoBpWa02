@@ -42,3 +42,15 @@ C:\PrysDbustos\cursos\bp02\Dia09\Otros\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug
 C:\PrysDbustos\cursos\bp02\Dia09\Otros\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\refint\Bdb.Curso.Core.Shared.dll
 C:\PrysDbustos\cursos\bp02\Dia09\Otros\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\Bdb.Curso.Core.Shared.pdb
 C:\PrysDbustos\cursos\bp02\Dia09\Otros\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\ref\Bdb.Curso.Core.Shared.dll
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\bin\Debug\net6.0\Bdb.Curso.Core.Shared.deps.json
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\bin\Debug\net6.0\Bdb.Curso.Core.Shared.dll
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\bin\Debug\net6.0\Bdb.Curso.Core.Shared.pdb
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\Bdb.Curso.Core.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\Bdb.Curso.Core.Shared.AssemblyInfoInputs.cache
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\Bdb.Curso.Core.Shared.AssemblyInfo.cs
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\Bdb.Curso.Core.Shared.csproj.CoreCompileInputs.cache
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\Bdb.Curso.Core.Shared.sourcelink.json
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\Bdb.Curso.Core.Shared.dll
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\refint\Bdb.Curso.Core.Shared.dll
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\Bdb.Curso.Core.Shared.pdb
+D:\CursoASP\Dia10\Github\CursoBpWa02\Bdp.Curso\Bdb.Curso.Core.Shared\obj\Debug\net6.0\ref\Bdb.Curso.Core.Shared.dll

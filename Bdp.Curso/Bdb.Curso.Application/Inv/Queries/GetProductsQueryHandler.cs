@@ -41,7 +41,7 @@ namespace Bdb.Curso.Application.Inv.Queries
                 query = _productsRepository
                        .Include(p => p.Category)           // utilizamos la relacion foranea
                        .Include(p => p.Supplier)
-                       .Where(p => p.Name.Contains(request.SearchTerm))
+                       .Where(p => p.Name.Contains(request.SearchTerm ?? string.Empty))
                        .OrderBy(p => p.Name)
                        .Select(p => new ProductDTO
                        {
@@ -55,9 +55,9 @@ namespace Bdb.Curso.Application.Inv.Queries
                 paginatedProducts = await query
                   .Skip((request.PageNumber - 1) * pageSize)  // Omite los registros anteriores según la página actual
                   .Take(pageSize)  // Toma solo el número de registros especificado por el tamaño de la página
-                  .ToListAsync();  // Ejecuta la consulta y convierte el resultado en una lista
+                  .ToListAsync(cancellationToken);  // Ejecuta la consulta y convierte el resultado en una lista
             }
-            catch (Exception ex)
+            catch
             {
 
 
